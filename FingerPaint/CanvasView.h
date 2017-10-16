@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CanvasView.h
 //  FingerPaint
 //
 //  Created by Nicholas Fung on 2017-10-13.
@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FCColorPickerViewController.h"
 
-@interface ViewController : UIViewController <FCColorPickerViewControllerDelegate>
+@interface CanvasView : UIView
 
+-(void)setLineColor:(UIColor *)color;
 
 @end
-
